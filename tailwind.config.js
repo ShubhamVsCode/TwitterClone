@@ -7,6 +7,8 @@ module.exports = {
         twitter: "#1DA1F2",
         gray: "#C7D6E5",
         darkBlue: "#1B2730",
+        secondaryGray: "#28343E",
+        background: "#06141D",
       },
     },
     screens: {

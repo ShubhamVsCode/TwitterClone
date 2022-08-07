@@ -21,3 +21,8 @@ code {
   margin: 0;
   padding: 0;
 }
+
+.navbar {
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(12px);
+}

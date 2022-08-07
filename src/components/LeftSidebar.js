@@ -3,7 +3,7 @@ import shubhamProfilePhoto from "../assets/shubhamProfile.png";
 
 const LeftSidebar = () => {
   return (
-    <div className="text-center ">
+    <div className="fixed z-10 max-w-xs text-center">
       <div className="rounded-2xl bg-darkBlue">
         <div className="h-24 overflow-hidden rounded-t-2xl">
           <img
@@ -20,7 +20,7 @@ const LeftSidebar = () => {
               alt=""
             />
           </div>
-          <p className="mb-1 -mt-8 text-xl">Shubham</p>
+          <p className="-mt-8 text-xl">Shubham</p>
           <p className="mb-1 text-md text-white/50">@shubhamvscode</p>
           <p className="mb-1 text-sm ">Full Stack Web Developer</p>
         </div>
@@ -40,7 +40,7 @@ const LeftSidebar = () => {
         </div>
       </div>
       <div className="p-4 mt-5 text-left rounded-2xl bg-darkBlue">
-        <p className="font-semibold">Who is following you</p>
+        <p className="font-semibold">Who to follow</p>
         <div className="mt-4 space-y-4">
           <LSFollowingCard
             title="Catty"
@@ -49,7 +49,7 @@ const LeftSidebar = () => {
           />
           <LSFollowingCard
             title="Elon Musk"
-            username="elontesla"
+            username="elonmusk"
             image="https://static01.nyt.com/images/2021/01/30/business/29musk-print/29musk-1-videoSixteenByNineJumbo1600.jpg"
           />
           <LSFollowingCard

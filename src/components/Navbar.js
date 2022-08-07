@@ -4,7 +4,7 @@ import Navlink from "./Navlink";
 
 const Navbar = () => {
   return (
-    <div className="flex items-center justify-between px-8 py-5">
+    <div className="sticky top-0 z-10 flex items-center justify-between px-8 py-5 navbar bg-opacity-20 bg-background">
       <div className="flex ">
         <img src={TwitterLogo} className="w-8 mr-5" alt="" />
         <input
