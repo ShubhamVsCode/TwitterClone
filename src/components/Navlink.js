@@ -1,7 +1,7 @@
 const Navlink = ({ title, icon, hovered, className, active }) => {
   let mainDivClassName = "";
   if (hovered) {
-    mainDivClassName = "px-3 py-2 mx-4 rounded-full bg-white group";
+    mainDivClassName = "px-3 py-[7px] mx-4 rounded-full bg-white group";
   } else {
     mainDivClassName = "mx-4 group";
   }

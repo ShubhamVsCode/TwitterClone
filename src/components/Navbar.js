@@ -4,11 +4,11 @@ import Navlink from "./Navlink";
 
 const Navbar = () => {
   return (
-    <div className="flex items-center justify-between h-10 px-8 pt-8">
+    <div className="flex items-center justify-between px-8 py-5">
       <div className="flex ">
         <img src={TwitterLogo} className="w-8 mr-5" alt="" />
         <input
-          className="px-3 placeholder:text-gray-400 rounded-md bg-[#1B2730]"
+          className="px-3 rounded-md placeholder:text-gray-400 bg-darkBlue"
           type="text"
           placeholder="# Explore"
         />
@@ -27,7 +27,7 @@ const Navbar = () => {
 
         <div className="w-[1px] h-8 bg-white/20"></div>
 
-        <div className="flex items-center p-1 ml-4 space-x-2 rounded-full bg-slate-600">
+        <div className="flex items-center p-1 pr-2 ml-4 space-x-2 rounded-full bg-slate-600">
           <img className="w-8 rounded-full" src={shubhamProfilePhoto} alt="" />
           <span className="text-sm">Shubham</span>
           <i className="relative fi fi-sr-caret-down top-[2px]"></i>
