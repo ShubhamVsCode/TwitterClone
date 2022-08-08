@@ -4,8 +4,10 @@ import TrendingTweet from "./TrendingTweet";
 const RightSidebar = () => {
   return (
     <>
-      <div className="fixed p-4 rounded-xl right-48 bg-darkBlue w-80">
-        <p className="text-lg font-semibold text-center">What's Happening</p>
+      <div className="fixed p-4 rounded-xl right-48 bg-darkBlue lg:static lg:hidden 2xl:right-2 xl:w-60 w-80">
+        <p className="text-lg font-semibold text-center lg:font-normal lg:text-base">
+          What's Happening
+        </p>
         <p className="pt-2 pb-3 text-sm text-white/50">Trending in INDIA</p>
         <TrendingTweet trending="IWriteCode" tweet="97.7 K" />
         <TrendingTweet trending="iNeuron" tweet="81.6 K" />

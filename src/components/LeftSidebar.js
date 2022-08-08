@@ -3,11 +3,11 @@ import shubhamProfilePhoto from "../assets/shubhamProfile.png";
 
 const LeftSidebar = () => {
   return (
-    <div className="fixed z-10 max-w-xs text-center">
+    <div className="fixed z-10 text-center left-48 2xl:left-2 lg:hidden xl:w-60 w-80">
       <div className="rounded-2xl bg-darkBlue">
         <div className="h-24 overflow-hidden rounded-t-2xl">
           <img
-            src="https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg?w=2000"
+            src="https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg?w=400"
             alt=""
           />
         </div>

@@ -11,7 +11,7 @@ const Navlink = ({ title, icon, hovered, className, active }) => {
       <div className={`${mainDivClassName}`}>
         <i className={`fi fi-sr-${icon} relative top-[2px] ${className}`}></i>
         {active && (
-          <span className={`text-black text-sm font-semibold ml-2`}>
+          <span className={`text-black sm:hidden text-sm font-semibold ml-2`}>
             {title}
           </span>
         )}

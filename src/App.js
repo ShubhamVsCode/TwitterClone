@@ -6,9 +6,9 @@ import RightSidebar from "./components/RightSidebar";
 
 function App() {
   return (
-    <div className="min-h-screen mx-40 text-white bg-background App">
+    <div className="min-h-screen mx-40 text-white 2xl:mx-auto bg-background App">
       <Navbar />
-      <div className="grid grid-cols-4 gap-4 px-8">
+      <div className="grid grid-cols-4 gap-4 px-8 md:px-2 sm:px-0 ">
         <LeftSidebar />
         <MainView />
         <RightSidebar />
