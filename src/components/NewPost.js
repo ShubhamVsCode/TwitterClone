@@ -38,7 +38,7 @@ const NewPost = ({
         </div>
       </div>
       <div className="pl-[4.5rem] md:p-0">
-        <p className="py-2 mr-1">{postDescription}</p>
+        <p className="py-2 sm:text-sm mr-1">{postDescription}</p>
 
         {postImage && (
           <img
