@@ -40,7 +40,7 @@ const MainView = () => {
         comment="2056"
         share="652"
         postDescription="Launched the Greatest of All Time StarLink "
-        postImage="https://pbs.twimg.com/card_img/1553712143442247682/JZxm04h8?format=jpg&name=small"
+        postImage="https://www.starlink.com/assets/images/social/share.jpg"
       />
       <NewPost
         profile="https://banner2.cleanpng.com/20180509/clq/kisspng-nasa-insignia-logo-national-advisory-committee-for-5af2da39e26428.9819356315258650179273.jpg"
